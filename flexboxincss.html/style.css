@@ -1,0 +1,65 @@
+*{font-family:sans-serif;}
+.plans{
+    display:flex;
+    /* justify-content: space-around; */
+    /* padding: 70px; */
+    /* min-height: 100vh; */
+    /* box-sizing:border-box; */
+    gap: 40px;
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 100px;
+}
+
+.plans div{
+    padding: 20px;
+    width: 250px;
+}
+.free{
+    /* border: 2px solid grey; */
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.free button{
+    align-self: center;
+}
+.dark{
+    background-color:rgb(4, 4, 45);
+    color: white;
+    padding-left: 10px;
+    /* border: 2px solid rgb(229, 0, 0); */
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pro{
+    /* border: 2px solid grey; */
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+img{
+    height:20px;
+    width:20px;
+}
+
+.button button{
+    /* width: 150px; */
+    height: 40px;
+    width: 90%;
+    border-radius: 50px;
+    font-size: 1.25em;
+}
+
+.light{
+    background-color:rgb(4, 4, 45);
+    color: white;
+}
+
+html{
+    background-color: rgb(232, 220, 241);
+}

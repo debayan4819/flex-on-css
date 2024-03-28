@@ -1,0 +1,11 @@
+
+1. justify-content: This property aligns items along the main axis of the container. It can distribute extra space left over when flex items on a line are inflexible or have reached their maximum size. It can also align items when they overflow the line.
+
+2. align-items: This property aligns items along the cross axis. It's useful for aligning items vertically within their container.
+
+3. gap: The `gap` property defines the space between flex items. It can be used to set both row and column gaps.
+
+4.flex-direction: This establishes the main axis, thus defining the direction flex items are placed in the flex container. It can be `row`, `row-reverse`, `column`, or `column-reverse`.
+
+5. flex-wrap: By default, flex items will all try to fit onto one line. The `flex-wrap` property allows the items to wrap as needed onto multiple lines, from top to bottom or vice versa.
+
